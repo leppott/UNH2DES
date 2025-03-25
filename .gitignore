@@ -47,3 +47,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+data-raw/UNH2DES_LibraryCreation.Rmd
+data-raw/UNH2DES_LibraryCreation.nb.html
+*.Rproj

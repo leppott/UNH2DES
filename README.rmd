@@ -1,0 +1,43 @@
+---
+title: "MNcalc-README"
+author: "Erik.Leppo@tetratech.com"
+date: "`r Sys.time()`"
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE
+                      , collapse = TRUE
+                      , comment = "#>"
+                      , fig.path = "README-")
+
+```
+
+```{r, echo = FALSE}
+cat(paste0("Last Update: ",Sys.time()))
+```
+# UNH2DES
+Translate lake data from University of New Hampshire (UNH) lab to New Hampshire Department of Environmental Services (DES) Environmental Monitoring Database (EMD).
+
+# Badges
+to come later
+
+# Installation
+To install the current version use the code below to install from GitHub. The 
+use of “force = TRUE” ensures the package is installed even if already present. 
+If the package `remotes` is missing the code below will install it.
+
+```{r Install, eval=FALSE}
+if(!require(remotes)){install.packages("remotes")}  #install if needed
+install_github("leppott/UNH2DES", force=TRUE)
+```
+
+# Purpose
+To aid users in the migration of data from UNH to DES (EMD).
+
+# Usage
+
+# Shiny
+No plans for a Shiny app at the current time.
