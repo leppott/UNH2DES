@@ -1,16 +1,20 @@
 Package: UNH2DES
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: Transfer UNH Data to DES EMD
+Version: 0.1.0.9002
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Erik W.", "Leppo",
+      email = "Erik.Leppo@tetratech.com",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Description: Translate lake data from University of New Hampshire (UNH) lab to 
+  New Hampshire Department of Environmental Services (DES) Environmental 
+  Monitoring Database (EMD).
+License: MIT
 Encoding: UTF-8
 LazyData: true
+Imports: dplyr,
+  tidyr,
+  writexl
